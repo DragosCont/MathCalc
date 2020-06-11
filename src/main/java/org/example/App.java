@@ -19,6 +19,10 @@ public class App
         System.out.println("\n");
         Multiplication multiplication = new Multiplication();
         multiplication.output();
+
+        System.out.println("\n");
+        Division division = new Division();
+        division.output();
     }
 
 
