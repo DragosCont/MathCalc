@@ -9,7 +9,7 @@ public class Division {
         String number2 = getNumber2FromUser();
         int f0 = Integer.parseInt(number1);
         int f1 = Integer.parseInt(number2);
-        System.out.println(number1 + " - " + number2 + " = " + (f0 - f1));
+        System.out.println(number1 + " / " + number2 + " = " + (f0 / f1));
     }
 
     private String getNumber1FromUser() {
